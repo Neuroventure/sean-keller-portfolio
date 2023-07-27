@@ -5,33 +5,68 @@ body, h1, p {
     padding: 0;
 }
 
-/* Set a base font size and font family */
+/* body element */
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
+    background-color: antiquewhite;
 }
 
-/* Style the header (h1) element */
+/*the header and nav elements */
 h1 {
-    font-size: 24px;
+    display:flex;
+    font-size: 60px;
     font-weight: bold;
-    color: #333; /* You can use any color code or color name */
+    color: navy;
+    background-color: whitesmoke;
+    
+    
+
 }
 
-/* Style the paragraph (p) elements */
+.nav {
+    
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    color: aqua;
+    background-color: whitesmoke;
+
+    
+    
+}
+
+/* aside elememts*/
+aside, h2, p {
+    display:block;
+    font-size: 50px;
+    padding: 20px;
+    margin: 10px 10px 10px;
+    
+}
+
+
+
+/* paragraph (p) elements */
 p {
     font-size: 16px;
     line-height: 1.6;
     color: #666;
 }
 
-/* Add some basic styling to hyperlinks (a) */
+/* hyperlink elements (a) */
 a {
     color: #007bff;
     text-decoration: none;
 }
 
-/* Style hyperlinks on hover */
+/* hyperlinks on hover element */
 a:hover {
     text-decoration: underline;
+}
+
+@media screen (max-width:1080px) {
+
+    
 }
