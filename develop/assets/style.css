@@ -1,72 +1,76 @@
+/*the header styling */
 
-*
-body, h1, p {
-    margin: 0;
-    padding: 0;
+header {
+  color: #fff;
+  max-width: 100%;
+  
+  
 }
+
+
+header, h1 {
+    font-size:65px;
+    margin-top: 0%;
+    display: flex;
+    align-items: flex-start;
+    font-weight: bold;
+    background-color: whitesmoke;
+    background: #13293d;
+    
+ }
+
+/* nav bar */
+.nav, ul, a
+{
+
+display: flex;
+min-width: 100%;
+align-self: flex-end;
+text-decoration: none;
+justify-content: left;
+min-width: 500px;
+color: #fff;
+font-size: 20px;
+}
+
+
 
 /* body element */
 body {
     font-family: Arial, sans-serif;
-    font-size: 16px;
-    background-color: antiquewhite;
+    background-color: rgba(195, 196, 193, 0.555);
+    
+}
+#left-section {
+    
+    display: inline-block;
+    font-weight:900;
+    font-size: x-large;
+    padding-bottom: 3%;
+    margin: 10px auto;
+   
+    
 }
 
-/*the header and nav elements */
-h1 {
-    display:flex;
-    font-size: 60px;
-    font-weight: bold;
-    color: navy;
-    background-color: whitesmoke;
-    
-    
-
-}
-
-.nav {
-    
-    width: 100%;
+footer {
     display: flex;
-    justify-content: right;
-    flex-direction: row;
-    color: aqua;
-    background-color: whitesmoke;
-
-    
-    
+  justify-content: center;
+  padding: 2%;
+  max-width: 100%;
+  background-color: #13293d;
+  color: #fff;
 }
 
-/* aside elememts*/
-aside, h2, p {
-    display:block;
-    font-size: 50px;
-    padding: 20px;
-    margin: 10px 10px 10px;
-    
-}
+/*main content*/
 
 
+/* photos */
 
-/* paragraph (p) elements */
-p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #666;
-}
-
-/* hyperlink elements (a) */
-a {
-    color: #007bff;
-    text-decoration: none;
-}
 
 /* hyperlinks on hover element */
 a:hover {
     text-decoration: underline;
-}
-
-@media screen (max-width:1080px) {
-
+    font-size: larger;
     
 }
+
