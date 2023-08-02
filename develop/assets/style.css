@@ -1,24 +1,33 @@
-
+/*makes links scroll to section smoothly */
+html {
+  scroll-behavior: smooth;
+}
 
 /*the header styling */
+
 
 header {
   color: #fff;
   max-width: 100%;
   
   
+  
+  
 }
+
 
 header, h1 {
     font-size:65px;
     margin-top: 0%;
     display: flex;
-    align-items: flex-start;
+    align-self: flex-start;
     font-weight: bold;
     background-color: whitesmoke;
     background: #13293d;
-    
- }
+   
+  }
+
+
 
 /* nav bar */
 .nav, ul, a
@@ -28,10 +37,10 @@ display: flex;
 min-width: 100%;
 align-self: flex-end;
 text-decoration: none;
-justify-content: left;
-min-width: 500px;
+justify-content: center;
 color: #fff;
 font-size: 20px;
+
 }
 
 /* body element */
@@ -42,6 +51,7 @@ body {
 }
 .placeholder-container {
   display: flex;
+  justify-content: flex-end;
   position: relative;
   flex-direction: column;
   background-color: DodgerBlue;
@@ -52,26 +62,25 @@ body {
   
   padding: 10px;
   font-size: 30px;
-  width:70%;
+  max-width:100%;
+  min-width: 50%;
   
 
   }
 
-.placeholder-1 {
-  display: flex;
-  justify-content: inline;
-}
 .about-me-text, .work-text, .contact-me-text{
   display:flex;
-  justify-content: center;
+  flex-basis: auto;
+  justify-items: center;
+  flex-direction: row;
+  align-items: center;
 }
-
 
 .title {
   border-bottom:3px solid black ;
   display: flex;
   align-content: center;
-  font-size: 50px;
+  font-size: 40px;
   margin: 10px auto;
   padding: 20px;
   
@@ -91,18 +100,21 @@ footer {
 a:hover {
     text-decoration: underline;
     font-size: larger;
+    padding: 0px auto;
 } 
-.placeholder-1 .placeholder-2 .placeholder-3{
-  height:300px;
-  width:600px;
-  overflow: hidden;
-}
 
-.placeholder-1 img, .placeholder-2 img, .placeholder-3 img{
-transition:ease-in .5s;
-}
+/* image hover properties */
+
 .placeholder-1:hover img, .placeholder-2:hover img, .placeholder-3:hover img{
   transform: scale(.90);
 }
 
+.placeholder-1 img, .placeholder-2 img, .placeholder-3 img {
+  max-width:100%;
+  min-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  transition:ease-in .5s;
+  
+}
 
