@@ -1,3 +1,5 @@
+
+
 /*the header styling */
 
 header {
@@ -6,7 +8,6 @@ header {
   
   
 }
-
 
 header, h1 {
     font-size:65px;
@@ -33,39 +34,53 @@ color: #fff;
 font-size: 20px;
 }
 
-
-
 /* body element */
 body {
     font-family: Arial, sans-serif;
     background-color: rgba(195, 196, 193, 0.555);
     
 }
-#left-section {
-    
-    display: inline-block;
-    font-weight:900;
-    font-size: x-large;
-    padding-bottom: 3%;
-    margin: 10px auto;
-   
-    
+.placeholder-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: DodgerBlue;
+  
 }
 
+.placeholder-container  div {
+  
+  padding: 10px;
+  font-size: 30px;
+  width:70%;
+  
+
+  }
+
+.work-text, .about-me-text , .contact-me-text{
+display: flex;
+align-items: center;
+
+}
+
+.title{
+  border-bottom:3px solid black ;
+  display: flex;
+  align-content: center;
+  font-size: 50px;
+  
+  
+}
+/*footer styling */
+
 footer {
-    display: flex;
+  display: flex;
   justify-content: center;
   padding: 2%;
   max-width: 100%;
   background-color: #13293d;
   color: #fff;
 }
-
-/*main content*/
-
-
-/* photos */
-
 
 /* hyperlinks on hover element */
 a:hover {
