@@ -57,18 +57,23 @@ body {
 
   }
 
-.work-text, .about-me-text , .contact-me-text{
-display: flex;
-align-items: center;
-
+.placeholder-1 {
+  display: flex;
+  justify-content: inline;
+}
+.about-me-text, .work-text, .contact-me-text{
+  display:flex;
+  justify-content: center;
 }
 
-.title{
+
+.title {
   border-bottom:3px solid black ;
   display: flex;
   align-content: center;
   font-size: 50px;
-  
+  margin: 10px auto;
+  padding: 20px;
   
 }
 /*footer styling */
@@ -86,6 +91,18 @@ footer {
 a:hover {
     text-decoration: underline;
     font-size: larger;
-    
+} 
+.placeholder-1 .placeholder-2 .placeholder-3{
+  height:300px;
+  width:600px;
+  overflow: hidden;
 }
+
+.placeholder-1 img, .placeholder-2 img, .placeholder-3 img{
+transition:ease-in .5s;
+}
+.placeholder-1:hover img, .placeholder-2:hover img, .placeholder-3:hover img{
+  transform: scale(.90);
+}
+
 
