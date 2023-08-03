@@ -17,15 +17,15 @@ header {
 }
 
 
-header, h1, nav{
+header, h1{
     
     display: flex;
     font-weight: bold;
     background-color: whitesmoke;
     background: #13293d;
-   font-size:65px;
+    font-size:65px;
     margin-top: 0%;
-    max-width: 100%;
+  
   }
 
 
@@ -34,10 +34,8 @@ header, h1, nav{
 .nav, ul, a
 {
 
-display: flex;
-max-width: 100%;
-
-align-self: center;
+min-width:200px;
+align-self: flex-end;
 text-decoration: none;
 justify-content: center;
 color: #fff;
