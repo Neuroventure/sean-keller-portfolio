@@ -13,7 +13,7 @@ Sean Keller's Portfolio page features a nav bar with a large name on the left. T
 ### Deployed Page
 [Deployed Website via Github Pages](https://neuroventure.github.io/sean-keller-portfolio/)
 
-![Deployed page Screenshot]()
+![Deployed page Screenshot](./assets/images/neuroventure.github.io_sean-keller-portfolio_%20(1).png)
 
 
 
