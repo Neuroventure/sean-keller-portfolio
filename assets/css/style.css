@@ -10,50 +10,43 @@ header {
   display: flex;
   color: #fff;
   max-width: 100%;
-  
-  
-  
+  font-size:35px;
+  background: #13293d;
+  justify-content: space-between;
   
 }
-
-
-header, h1{
-    
-    display: flex;
-    font-weight: bold;
-    background-color: whitesmoke;
-    background: #13293d;
-    font-size:65px;
-    margin-top: 0%;
-  
-  }
 
 
 
 /* nav bar */
-.nav, ul, a
-{
 
-min-width:200px;
-align-self: flex-end;
+nav, a, ul, li
+{
+flex-direction: row;
+display: flex;
+align-items: flex-end;
 text-decoration: none;
-justify-content: center;
 color: #fff;
 font-size: 20px;
+margin-right: 100px;
+
 
 }
+
 
 /* body element */
 body {
   
     font-family: Arial, sans-serif;
-    background-color: rgba(195, 196, 193, 0.555);
+
+    
     
 }
 
 
 .placeholder-container {
   display: flex;
+  flex-wrap: wrap;
   position: relative;
   flex-direction: column;
   background-color: DodgerBlue;
@@ -66,7 +59,7 @@ body {
   padding: 10px;
   font-size: 30px;
   max-width:100%;
-  min-width: 50%;
+  
   
 /* main text section */
   }
@@ -80,19 +73,16 @@ body {
 
 .about-me-text, .work-text, .contact-me-text{
   display:flex;
-  flex-basis: auto;
+  
   justify-items:center;
   flex-direction: row;
   align-items: center;
+  
 }
 
 .title {
-  border-bottom:3px solid black ;
-  display: flex;
-  align-content: center;
+  border-bottom:3px double black ;
   font-size: 40px;
-  margin: 10px auto;
-  padding: 20px;
   
 }
 /*footer styling */
@@ -104,13 +94,14 @@ footer {
   max-width: 100%;
   background-color: #13293d;
   color: #fff;
+  
 }
 
 /* hyperlinks on hover element */
 a:hover {
     text-decoration: underline;
     font-size: larger;
-    padding: 0px auto;
+    
 } 
 
 /* image hover properties */
@@ -121,16 +112,16 @@ a:hover {
 
 .placeholder-1 img, .placeholder-2 img, .placeholder-3 img {
   max-width:100%;
-  min-width: 100%;
-  max-height: 100%;
+  max-height: 300px;
   transition:ease-in .5s;
   
 }
-p{
-  display:flex;
-  min-width: 50%;
-  max-width: 100%;
+
+.placeholder-2 img, .placeholder-1 img{
+  max-height: 100%;
 }
+
+
 /* screen size adjustment */
 
 /* Mobile Styles */

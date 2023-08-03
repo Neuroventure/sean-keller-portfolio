@@ -11,7 +11,7 @@ Sean Keller's Portfolio page features a nav bar with a large name on the left. T
 3. [Reference](#reference)
 
 ### Deployed Page
-[Deployed Website via Github Pages]()
+[Deployed Website via Github Pages](https://neuroventure.github.io/sean-keller-portfolio/)
 
 ![Deployed page Screenshot]()
 
